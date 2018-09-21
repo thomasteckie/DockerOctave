@@ -4,7 +4,7 @@ FROM ubuntu
 # Install python and pip
 RUN apt-get update
 RUN apt-get upgrade -y
-RUN apt-get install less nano
+RUN apt-get install -y less nano
 RUN apt-get install -y octave
 
 
